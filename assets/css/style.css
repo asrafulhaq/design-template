@@ -92,3 +92,23 @@ a:hover {
 	padding: 10px;
 	font-family: 'Poppins', sans-serif;
 }
+.home-banner  .find-car {
+	margin-top: 250px;
+	font-family: 'Poppins', sans-serif;
+}
+.home-banner  .find-car h2{
+	text-align: center;
+	color: #FFF;
+	font-size: 50px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+
+.home-banner  .find-car p{
+	text-align: center;
+	color: #FFF;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+}
+
