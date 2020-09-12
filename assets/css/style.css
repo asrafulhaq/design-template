@@ -1,5 +1,10 @@
 * {
 	font-family: 'Roboto', sans-serif;
+	
+}
+
+body {
+	background-color: gray;
 }
 ul {
 	margin: 0px;
@@ -20,95 +25,76 @@ a:hover {
 }
 
 
-
-/*Top Bar Style*/
-.top-bar {
-	background-color: #000;
-	padding: 7px 0px;
+/*Header */
+.header {
+	background-color: #fff;
+}
+.header .top-menu {
+	background-color: #f5f5f5;
 }
 
-.top-bar .contact-info {
-	color: #FFF;
+.header .top-menu ul{
+	text-align: center;
+
 }
-.top-bar .contact-info  ul li {
+
+.header .top-menu ul li {
 	display: inline-block;
-	font-size: 13px;
-	margin-right: 100px;
+	padding: 3px 10px;
 }
 
-.top-bar .contact-info  ul li i {
-	color: #04dbc0;
+
+.header .top-menu ul li  a{
+	font-size: 14px;
+	color: #999;
 }
 
-.top-bar .social-menu ul {
-	text-align: right;
+.header .top-menu ul li  a:hover {
+	color: #000;
+}
+.header .main-menu {
+	padding: 20px 0px;
 }
 
-.top-bar .social-menu ul li {
-	display: inline-block;
-}
-.top-bar .social-menu ul li a {
-	color: #FFF;
-	font-size: 13px;
-	display: inline-block;
-	margin:0px 5px;
-	transition: .3s;
+.header .main-menu .logo img {
+	width: 200px;
 }
 
-.top-bar .social-menu ul li a:hover {
-	color: #5856D6;
+.header .main-menu .search-bar  {
+	margin-top: 8px;
 }
 
-/*Home Page Banner */
-.home-banner {
-	height: 100vh;
-	width: 100%;
-	background-image: url('../img/banner.jpg');
-	background-size: cover;
-	background-position: center center;
-}
-
-.home-banner .header {
-	background-color: rgba(0, 0, 0, .5);
-	padding: 15px;
-}
-
-.home-banner .header .logo a img {
-	width: 170px;
-}
-
-.home-banner .header .main-menu ul {
-	text-align: right;
-}
-
-.home-banner .header .main-menu ul li {
-	display: inline-block;
-}
-
-.home-banner .header .main-menu ul li a {
-	color: #FFF;
-	font-size: 13px;
-	display: inline-block;
+.header .main-menu .search-bar input {
+	width: 90%;
+	border: 1px solid  #f5f5f5;
+	border-radius: 0px;
 	padding: 10px;
-	font-family: 'Poppins', sans-serif;
-}
-.home-banner  .find-car {
-	margin-top: 250px;
-	font-family: 'Poppins', sans-serif;
-}
-.home-banner  .find-car h2{
-	text-align: center;
-	color: #FFF;
-	font-size: 50px;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 700;
+	float: left;
+	color: #666;
 }
 
-.home-banner  .find-car p{
-	text-align: center;
-	color: #FFF;
-	font-size: 15px;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 500;
+.header .main-menu .search-bar button {
+	width: 10%;
+	border: 1px solid  #f5f5f5;
+	background-color: #f5f5f5;
+	color: #000;
+	border-radius: 0px;
+	padding: 10px;
+	float: left;
+}
+.header .main-menu .shop-menu {
+	margin-top: 8px;
 }
 
+.header .main-menu .shop-menu ul{
+	text-align: right;
+}
+
+.header .main-menu .shop-menu ul li {
+	display: inline-block;
+	margin: 10px;
+}
+.header .main-menu .shop-menu ul li a {
+	font-size: 20px;
+	color: #333;
+}
